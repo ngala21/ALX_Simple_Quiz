@@ -19,7 +19,7 @@ function checkAnswer() {
    feedback.textContent = 'Correct! Well done.';
    feedback.style.color = '#007bff';
   } else {
-   feedback.textContent = "That's Incorrect! Try Again.";
+   feedback.textContent = "That's incorrect. Try again!";
    feedback.style.color = 'orange';
   }
 
