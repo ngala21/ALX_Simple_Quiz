@@ -11,18 +11,18 @@ function checkAnswer() {
   
   // User Feedback 
 
-  let userFeedback = document.getElementById('feedback');
+  let feedback = document.getElementById('feedback');
 
   // Compare the User's Answer with the Correct Answer
 
   if (userAnswer === correctAnswer) {
-   userFeedback.textContent = 'Correct! Well done.';
-   userFeedback.style.color = '#007bff';
+   feedback.textContent = 'Correct! Well done.';
+   feedback.style.color = '#007bff';
   } else {
-   userFeedback.textContent = "That's Incorrect! Try Again.";
-   userFeedback.style.color = 'orange';
+   feedback.textContent = "That's Incorrect! Try Again.";
+   feedback.style.color = 'orange';
   }
- 
+
 
 } 
 
